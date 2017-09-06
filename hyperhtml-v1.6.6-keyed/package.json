@@ -1,0 +1,26 @@
+{
+  "name": "js-framework-benchmark-hyperhtml",
+  "version": "1.0.0",
+  "description": "lit-html demo",
+  "main": "src/index.js",
+  "author": "Vlad Rindevich <rindevich.vs@gmail.com> (https://github.com/Lodin)",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/krausest/js-framework-benchmark",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krausest/js-framework-benchmark.git"
+  },
+  "scripts": {
+    "build-dev": "webpack -w",
+    "build-prod": "webpack -p"
+  },
+  "devDependencies": {
+    "babel-core": "6.24.1",
+    "babel-loader": "7.0.0",
+    "babel-preset-es2015": "6.24.1",
+    "webpack": "2.5.1"
+  },
+  "dependencies": {
+    "hyperhtml": "^1.6.6"
+  }
+}
