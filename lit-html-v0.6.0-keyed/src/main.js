@@ -166,8 +166,8 @@ class Main {
 
   render() {
     render(html`${this.store.data.map(i => html`
-      <tr class="${i.id === this.store.selected ? 'danger' : ''}">
-        <td class="col-md-1">${i.id}</td>
+      <tr className="${i.id === this.store.selected ? 'danger' : ''}">
+        <td class="col-md-1" data-id="${i.id}">${i.id}</td>
         <td class="col-md-4">
           <a on-click="${() => this.select(i.id)}">${i.label}</a>
         </td>

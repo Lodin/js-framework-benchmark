@@ -21,6 +21,6 @@
     "webpack": "2.5.1"
   },
   "dependencies": {
-    "lit-html": "^0.6.0"
+    "lit-html": "0.6.0"
   }
 }
